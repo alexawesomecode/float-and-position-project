@@ -3,10 +3,31 @@
     box-sizing: border-box;
 }
 
-.float-left {
+.title {
 
-    float: left;}
+    position:relative;
+    left: 28%;
+    width: 30%;
+    padding-top: 5%;
 
+}
+
+
+
+.jumbo {
+    position: relative;
+    left: 22%;
+    width: 50%;
+}
+
+.jumbo img {
+
+    width: 100%;}
+
+.jumbo p {
+
+    font-size: 12px;
+}
 .ads {
     position: relative;
     clear: both;
@@ -14,10 +35,39 @@
     height: 12rem;
     text-align: center;
     padding-top: 5rem;
-    border: 1px solid black;
+    background-color: lightgray;
+    border: 2px solid black;
      
 }
 
+
+
+aside {
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+    width: 10%;
+}
+
+
+.infograph {
+
+    position: relative;
+    left: 22%;
+    width: 60%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;}
+
+.infograph-boxes {
+
+    position: relative;
+    float: left;
+    width: 25%;
+}
+
+.infograph-boxes img {
+
+    width: 100%;}
 .footer-float {
 
     float: left;
@@ -25,15 +75,29 @@
     padding: 10rem;
 }
 
+.infograph-boxes p {
+
+    font-size: 15px;
+}
+
+.video-box {
+
+    position: relative;
+    width: 50%;
+    left: 33%;}
+
 .fixed-nav {
 
 position: fixed;
     height: 3rem;
     background: yellow;
     top: 0;
-    width: 100%;
-
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
 }
+
 
 p {
 
@@ -45,5 +109,9 @@ p {
 .main-content {
     position: relative;
     left: 33%;
-    width: 33%;
+    width: 50%;
 }
+
+
+.clear-floats {
+    clear: both;}
