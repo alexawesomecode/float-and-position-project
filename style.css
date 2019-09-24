@@ -1,0 +1,49 @@
+* {
+
+    box-sizing: border-box;
+}
+
+.float-left {
+
+    float: left;}
+
+.ads {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 12rem;
+    text-align: center;
+    padding-top: 5rem;
+    border: 1px solid black;
+     
+}
+
+.footer-float {
+
+    float: left;
+    width: 25%;
+    padding: 10rem;
+}
+
+.fixed-nav {
+
+position: fixed;
+    height: 3rem;
+    background: yellow;
+    top: 0;
+    width: 100%;
+
+}
+
+p {
+
+  line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+.main-content {
+    position: relative;
+    left: 33%;
+    width: 33%;
+}
