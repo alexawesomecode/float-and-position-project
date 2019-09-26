@@ -6,43 +6,102 @@
 body,
 footer {
   margin: 2%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-
-    position: relative;
+  position: relative;
 }
 nav {
   position: fixed;
-  height: 3rem;
-  background: yellow;
+  background: white;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
+  border-bottom: 1px solid black;
 }
+
+nav img {
+  position: relative;
+  left: 2%;
+  width: 200px;
+  text-align: left;
+}
+
+/* title & front image section */
 
 .title {
   position: relative;
   left: 28%;
-  width: 30%;
+  width: 33%;
   padding-top: 5%;
+  padding-bottom: 2%;
+}
+.title h1 {
+  font-style: italic;
+  font-size: 1.8rem;
+  letter-spacing: 0.7px;
 }
 
 .jumbo {
   position: relative;
-  left: 22%;
-  width: 50%;
+  left: 12%;
+  width: 70%;
 }
 
 .jumbo img {
   width: 100%;
 }
 
-.jumbo p {
-  font-size: 12px;
+.jumbo,
+.image-box,
+.video-box p {
+  font-size: 15px;
+  max-width: 770px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
+}
+.sub-p-media-box {
+  display: block;
+  font-size: 13px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
+  margin-top: 0.03rem;
 }
 
+/* content */
+
+.main-content {
+  position: relative;
+  left: 25%;
+  width: 53%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.main-content p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 29px;
+}
+
+.main-content h2 {
+  margin-bottom: 1.5rem;
+  font-size: 21px;
+  color: #333;
+}
+
+.p-underline {
+  text-decoration: underline;
+  color: #326891;
+}
+.p-underline:hover {
+  text-decoration: none;
+}
 .ads {
   position: relative;
   clear: both;
@@ -52,6 +111,8 @@ nav {
   background-color: lightgray;
   border: 2px solid rgb(255, 255, 255);
 }
+
+/* infograph section */
 
 .infograph {
   position: relative;
@@ -72,66 +133,68 @@ nav {
   width: 100%;
 }
 .infograph-boxes p {
-    font-size: 14px;
-    font-family: Arial;
-    color: #000000;
+  font-size: 14px;
+  font-family: Arial;
+  color: #000000;
 }
+/* media boxes */
 
 .video-box {
   position: relative;
-  width: 50%;
-  left: 33%;
+  width: 53%;
+  left: 25%;
+}
+.video-box iframe {
+  width: 100%;
+  height: 400px;
 }
 
-p {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: -0.5px;
-}
-
-.main-content {
+.image-box {
   position: relative;
-  left: 30%;
-  width: 55%;
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+  width: 53%;
+  left: 25%;
 }
-
-.main-content-with-aside {
-  position: relative;
-  left: 30%;
-  width: 55%;
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+.image-box img {
+  width: 100%;
 }
 
 .signup-form {
-
-    border-top: 2px solid black;
-    padding-top: 2rem;
-    height: 15rem;}
+  border-top: 2px solid black;
+  padding-top: 2rem;
+  height: 15rem;
+}
 
 .signup-form-box {
-
-    float:left;
-    width: 50%;}
+  float: left;
+  width: 50%;
+}
 
 .get-more-content {
   position: relative;
   width: 66%;
   float: left;
+  padding-top: 7%;
+  border-top: 1px solid black;
 }
 
 aside {
-    position: relative;
-    padding-top: 4.5rem;
-    border-top: 2px solid black;
+  position: relative;
 }
+
 .get-more-content-box {
-  width: 30%;
   float: left;
-  margin-right: 0.8rem;
+  width: 30%;
+  height: 273px;
+  margin-right: 2%;
+}
+
+.get-more-content p {
+  font-size: 15px;
+  max-width: 770px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
+  margin-top: 2%;
 }
 
 .get-more-content-box img {
@@ -157,40 +220,48 @@ footer {
 }
 .footer-float {
   float: left;
-  width: 15%;
+  width: 17%;
 }
 
 .footer-float ul {
   position: relative;
   left: -45px;
+  padding-bottom: 0.2rem;
 }
 .footer-float li {
-  padding: 0.5rem;
-  text-align: left;
-  line-height: 1;
   list-style: none;
+  padding-bottom: 0.17rem;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+.footer-float li:hover {
+  text-decoration: underline;
 }
 
 .footer-float h3 {
-  text-align: left;
-  font-weight: bold;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+
+  height: 25px;
+  line-height: 15px;
+  margin: 0px;
+  text-transform: uppercase;
+  width: 150px;
 }
 
 .footer-float-subscribe {
   float: left;
-  width: 15%;
 }
-.footer-float-subscribe ul,
-li {
-  padding: 0.5rem;
-  text-align: left;
-  line-height: 1;
-  list-style: none;
-}
-
 .footer-float-subscribe ul {
   position: relative;
-  left: -12px;
+  list-style: none;
 }
 .footer-float-subscribe h3 {
   text-align: left;
