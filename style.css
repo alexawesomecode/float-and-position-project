@@ -274,22 +274,21 @@ aside {
 input[type="email"] {
  
   width: 78%;
-  height: 1.9rem;
+  height: 26px;
   margin-bottom: 25px;
 }
 
 .signup-form-box button {
 
-  float: right;
   cursor: pointer;
   height: 33px;
   padding: 5px 29px;
-  margin: 0 3px;
   border-radius: 4px;
   background-color: #6c8fb3;
   color: white;
   text-transform: uppercase;
   font-weight: 800;
+  margin-left: -0.35rem;
  
   
 
@@ -362,10 +361,20 @@ input[type="email"] {
  font-weight: 555;
 
 }
+
+/* footer */
+
+
+.footer-logo img {
+
+  width: 188px;
+  margin-left: -4%;
+  margin-bottom: 1rem;
+}
 footer {
   position: relative;
   border-top: 2px solid rgb(226,226, 226);
-  padding-top: 2rem;
+  padding-top: 1.4rem;
 }
 
 .footer-ny-logo img {
@@ -468,4 +477,11 @@ footer {
   .jumbo {
     width: 100%;
   }
+
+  .footer-float {
+
+    display: none;
+  }
 }
+
+
