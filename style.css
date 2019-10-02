@@ -190,13 +190,23 @@ nav img {
   position: relative;
   left: 20%;
   width: 80%;
+  height: 528px;
   padding-bottom: 5rem;
   background-image: url("imgs/inflation-945.png");
+  background-size: cover;
 }
 
-.test {
-  background-image: url("imgs/inflation-945.png");
+
+.infograph-align-top {
+  position: relative;
+  top: 31%;
 }
+
+.infograph-align-bottom {
+  position: relative;
+  top: 66%;
+}
+
 
 .infograph-boxes {
   position: relative;
