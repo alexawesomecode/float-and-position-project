@@ -36,7 +36,6 @@ nav img {
 }
 
 .side-sect h1 {
-
   font-size: 19px;
   margin-bottom: 1rem;
   text-decoration: underline;
@@ -45,6 +44,7 @@ nav img {
 .humberg-container {
   float: left;
 }
+
 .side-item {
   display: flex;
   margin-bottom: 1rem;
@@ -61,7 +61,8 @@ nav img {
 }
 
 .logo-container {
-  display: table; margin: 0 auto;
+  display: table;
+  margin: 0 auto;
 }
 
 .buttons {
@@ -190,13 +191,11 @@ nav img {
   left: 20%;
   width: 80%;
   padding-bottom: 5rem;
-  background-image: url("imgs/inflation-945.png")
+  background-image: url("imgs/inflation-945.png");
 }
 
 .test {
-
-  background-image: url("imgs/inflation-945.png")
-
+  background-image: url("imgs/inflation-945.png");
 }
 
 .infograph-boxes {
@@ -486,7 +485,6 @@ footer {
   margin-left: 22%;
   font-size: 13px;
   font-weight: bold;
-
 }
 
 @media screen and (max-width: 600px) {
