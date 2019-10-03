@@ -48,6 +48,14 @@ nav img {
 .side-item {
   display: flex;
   margin-bottom: 1rem;
+
+}
+
+.side-item a {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
 
 .side-item p {
@@ -188,7 +196,7 @@ nav img {
 
 .infograph {
   position: relative;
-  left: 20%;
+  margin: 0 auto;
   width: 80%;
   height: 528px;
   padding-bottom: 5rem;
