@@ -31,10 +31,6 @@ nav img {
   text-align: left;
 }
 
-.side-sect {
-  width: 13%;
-}
-
 .side-sect h1 {
   font-size: 19px;
   margin-bottom: 1rem;
@@ -48,7 +44,6 @@ nav img {
 .side-item {
   display: flex;
   margin-bottom: 1rem;
-
 }
 
 .side-item a {
@@ -287,6 +282,7 @@ nav img {
 .side-sect {
   position: absolute;
   left: 70rem;
+  width: 13%;
 }
 
 /*  signup */
