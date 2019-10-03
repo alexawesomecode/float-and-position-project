@@ -276,7 +276,7 @@ nav img {
 
 /* aside section */
 
-aside {
+.side-sect {
   position: absolute;
   left: 70rem;
 }
