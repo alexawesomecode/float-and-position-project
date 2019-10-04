@@ -1,531 +1,524 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body,
 footer {
-    margin: 3%;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 3%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    position: relative;
+  position: relative;
 }
 
 nav {
-    position: fixed;
-    background: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    border-bottom: 1px solid #ccc6c6;
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 1px solid #ccc6c6;
 }
 
 nav img {
-    position: relative;
-    left: 2%;
-    width: 200px;
-    margin-top: 10px;
-    text-align: left;
+  position: relative;
+  left: 2%;
+  width: 200px;
+  margin-top: 10px;
+  text-align: left;
 }
 
 .side-sect h1 {
-    font-size: 19px;
-    margin-bottom: 1rem;
-    text-decoration: underline;
+  font-size: 19px;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }
 
 .humberg-container {
-    float: left;
+  float: left;
 }
 
 .side-item {
-    display: flex;
-    margin-bottom: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .side-item a {
-    display: flex;
-    text-decoration: none;
-    color: #000;
-    cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
 
 .side-item p {
-    margin-left: 12px;
-    font-size: 13px !important;
+  margin-left: 12px;
+  font-size: 13px !important;
 }
 
 .side-sect img {
-    width: 40%;
-    height: 2rem;
+  width: 40%;
+  height: 2rem;
 }
 
 .logo-container {
-    display: table;
-    margin: 0 auto;
+  display: table;
+  margin: 0 auto;
 }
 
 .buttons {
-    float: right;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    margin-right: 1rem;
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 1rem;
 }
 
 .buttons button {
-    cursor: pointer;
-    height: 33px;
-    padding: 5px 12px;
-    margin: 0 3px;
-    border-radius: 4px;
-    background-color: #6c8fb3;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 800;
+  cursor: pointer;
+  height: 33px;
+  padding: 5px 12px;
+  margin: 0 3px;
+  border-radius: 4px;
+  background-color: #6c8fb3;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .humberg {
-    width: 19px;
-    margin-top: 16px;
-    margin-left: 8px;
+  width: 19px;
+  margin-top: 16px;
+  margin-left: 8px;
 }
-
 
 /* title & front image section */
 
 .title {
-    position: relative;
-    left: 28%;
-    width: 40%;
-    padding-top: 5%;
-    padding-bottom: 2%;
+  position: relative;
+  left: 28%;
+  width: 40%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .title h1 {
-    font-style: italic;
-    font-size: 1.8rem;
-    letter-spacing: 0.7px;
+  font-style: italic;
+  font-size: 1.8rem;
+  letter-spacing: 0.7px;
 }
 
 .jumbo {
-    position: relative;
-    width: 90%;
-    margin-left: 4rem;
+  position: relative;
+  width: 90%;
+  margin-left: 4rem;
 }
 
 .jumbo img {
-    width: 100%;
-    height: 85%;
-    margin: 0 auto;
+  width: 100%;
+  height: 85%;
+  margin: 0 auto;
 }
 
 .jumbo p {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .image-box,
 .video-box p {
-    font-size: 15px;
-    max-width: 770px;
-    text-align: left;
-    color: #666;
-    letter-spacing: 0.01rem;
+  font-size: 15px;
+  max-width: 770px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
 }
 
 .sub-p-media-box {
-    display: block;
-    font-size: 13px;
-    text-align: left;
-    color: #666;
-    letter-spacing: 0.01rem;
-    margin-top: 0.03rem;
+  display: block;
+  font-size: 13px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
+  margin-top: 0.03rem;
 }
 
 .text-deco {
-    font-size: 14px !important;
+  font-size: 14px !important;
 }
-
 
 /* content */
 
 .main-content {
-    position: relative;
-    left: 25%;
-    width: 53%;
-    padding-top: 4rem;
+  position: relative;
+  left: 25%;
+  width: 53%;
+  padding-top: 4rem;
 }
 
 .main-content p {
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    color: #333;
-    margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #333;
+  margin-bottom: 1.5rem;
 }
 
 .main-content h2 {
-    font-size: 18px;
-    color: #333;
+  font-size: 18px;
+  color: #333;
 }
 
 .p-underline {
-    text-decoration: underline;
-    color: #326891;
+  text-decoration: underline;
+  color: #326891;
 }
 
 .p-underline:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .ads {
-    position: relative;
-    clear: both;
-    height: 12rem;
-    text-align: center;
-    padding-top: 5rem;
-    background-color: lightgray;
-    border: 2px solid rgb(255, 255, 255);
+  position: relative;
+  clear: both;
+  height: 12rem;
+  text-align: center;
+  padding-top: 5rem;
+  background-color: lightgray;
+  border: 2px solid rgb(255, 255, 255);
 }
-
 
 /* infograph section */
 
 .infograph {
-    position: relative;
-    margin: 0 auto;
-    width: 80%;
-    height: 528px;
-    padding-bottom: 5rem;
-    background-image: url("imgs/inflation-945.png");
-    background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 528px;
+  padding-bottom: 5rem;
+  background-image: url("imgs/inflation-945.png");
+  background-size: cover;
 }
 
 .infograph-align-top {
-    position: relative;
-    top: 31%;
+  position: relative;
+  top: 31%;
 }
 
 .infograph-align-bottom {
-    position: relative;
-    top: 66%;
+  position: relative;
+  top: 66%;
 }
 
 .infograph-boxes {
-    position: relative;
-    float: left;
-    width: 233px;
-    margin-right: 1.6%;
+  position: relative;
+  float: left;
+  width: 233px;
+  margin-right: 1.6%;
 }
 
 .infograph-boxes img {
-    width: 100%;
+  width: 100%;
 }
 
 .infograph-boxes p {
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    color: #000;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #000;
 }
 
 .bold-infopgraph {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 /* media boxes */
 
 .video-box {
-    position: relative;
-    width: 53%;
-    left: 25%;
+  position: relative;
+  width: 53%;
+  left: 25%;
 }
 
 .video-box iframe {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 .image-box {
-    position: relative;
-    width: 65%;
-    left: 24%;
+  position: relative;
+  width: 65%;
+  left: 24%;
 }
 
 .image-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .signup-form {
-    border-top: 1px solid black;
-    padding-top: 2rem;
-    height: 15rem;
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  height: 15rem;
 }
 
 .signup-form-box {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .get-more-content {
-    position: relative;
-    width: 66%;
-    float: left;
-    padding-top: 1.4rem;
-    border-top: 1px solid black;
+  position: relative;
+  width: 66%;
+  float: left;
+  padding-top: 1.4rem;
+  border-top: 1px solid black;
 }
 
-.get-more-content>h3 {
-    font-size: 15px;
-    margin-bottom: 19px;
+.get-more-content > h3 {
+  font-size: 15px;
+  margin-bottom: 19px;
 }
-
 
 /* aside section */
-
 .side-sect {
-    position: absolute;
-    left: 70rem;
-    width: 13%;
+  position: absolute;
+  left: 70rem;
+  width: 13%;
 }
 
-
 /*  signup */
-
 .signup-form-box h2 {
-    font-size: 17px;
-    text-align: left;
-    margin-top: 2%;
-    margin-bottom: 4%;
+  font-size: 17px;
+  text-align: left;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 input[type="email"] {
-    width: 78%;
-    height: 26px;
-    margin-bottom: 25px;
+  width: 78%;
+  height: 26px;
+  margin-bottom: 25px;
 }
 
 .signup-form-box button {
-    cursor: pointer;
-    height: 33px;
-    padding: 5px 29px;
-    border-radius: 4px;
-    background-color: #6c8fb3;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-left: -0.35rem;
+  cursor: pointer;
+  height: 33px;
+  padding: 5px 29px;
+  border-radius: 4px;
+  background-color: #6c8fb3;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: -0.35rem;
 }
 
 .subscribe-text {
-    font-size: 12px;
-    letter-spacing: 0.01rem;
-    color: #666;
+  font-size: 12px;
+  letter-spacing: 0.01rem;
+  color: #666;
 }
 
 .signup-form-box p {
-    font-size: 15px;
-    text-align: left;
-    letter-spacing: 0.01rem;
-    color: #666;
-    padding-right: 1rem;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0.01rem;
+  color: #666;
+  padding-right: 1rem;
 }
 
 .get-more-content-box {
-    float: left;
-    width: 30%;
-    height: 273px;
-    margin-right: 2%;
+  float: left;
+  width: 30%;
+  height: 273px;
+  margin-right: 2%;
 }
 
 .get-more-content p {
-    font-size: 15px;
-    max-width: 770px;
-    text-align: left;
-    color: #666;
-    letter-spacing: 0.01rem;
-    margin-top: 2%;
+  font-size: 15px;
+  max-width: 770px;
+  text-align: left;
+  color: #666;
+  letter-spacing: 0.01rem;
+  margin-top: 2%;
 }
 
 .get-more-content-box img {
-    width: 100%;
+  width: 100%;
 }
 
 .get-more-content-box h3 {
-    font-size: 1.2rem;
-    padding-top: 0.7rem;
+  font-size: 1.2rem;
+  padding-top: 0.7rem;
 }
 
 .popular {
-    position: relative;
-    float: right;
-    width: 32%;
-    border-top: 1px solid black;
-    padding-top: 1.4rem;
+  position: relative;
+  float: right;
+  width: 32%;
+  border-top: 1px solid black;
+  padding-top: 1.4rem;
 }
 
 .popular h3 {
-    font-size: 15px;
-    margin-bottom: 19px;
+  font-size: 15px;
+  margin-bottom: 19px;
 }
 
 .popular ul {
-    list-style: none;
+  list-style: none;
 }
 
 .popular li {
-    border-top: 1px solid rgb(226, 226, 226);
-    padding: 16px 0;
-    margin-top: 4px;
-    font-size: 17px;
-    font-weight: 555;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 16px 0;
+  margin-top: 4px;
+  font-size: 17px;
+  font-weight: 555;
 }
 
-
 /* footer */
-
 .footer-logo img {
-    width: 188px;
-    margin-left: -4%;
-    margin-bottom: 1rem;
+  width: 188px;
+  margin-left: -4%;
+  margin-bottom: 1rem;
 }
 
 footer {
-    position: relative;
-    border-top: 2px solid rgb(226, 226, 226);
-    padding-top: 1.4rem;
+  position: relative;
+  border-top: 2px solid rgb(226, 226, 226);
+  padding-top: 1.4rem;
 }
 
 .footer-ny-logo img {
-    width: 288px;
+  width: 288px;
 }
 
 .footer-float {
-    float: left;
-    width: 17%;
+  float: left;
+  width: 17%;
 }
 
 .footer-float ul {
-    position: relative;
-    left: -45px;
-    padding-bottom: 0.2rem;
+  position: relative;
+  left: -45px;
+  padding-bottom: 0.2rem;
 }
 
 .footer-float li {
-    list-style: none;
-    padding-bottom: 0.17rem;
-    color: rgb(0, 0, 0);
-    text-transform: capitalize;
-    width: 150px;
-    font-size: 13px;
-    font-weight: 500;
-    height: 23px;
-    line-height: 16px;
+  list-style: none;
+  padding-bottom: 0.17rem;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 13px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
 }
 
 .footer-float-subscribe li {
-    list-style: none;
-    color: rgb(0, 0, 0);
-    text-transform: capitalize;
-    width: 150px;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 16px;
-    padding-bottom: 5px;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-bottom: 5px;
 }
 
 .footer-float li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-float h3 {
-    color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 700;
-    height: 25px;
-    line-height: 15px;
-    margin: 0;
-    width: 150px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  width: 150px;
 }
 
 .footer-float-subscribe {
-    float: left;
-    border-left: 1px solid rgb(226, 226, 226);
-    padding-left: 16px;
+  float: left;
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 16px;
 }
 
 .footer-float-subscribe ul {
-    position: relative;
-    list-style: none;
+  position: relative;
+  list-style: none;
 }
 
 .footer-float-subscribe h3 {
-    color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 700;
-    height: 25px;
-    line-height: 15px;
-    margin: 0;
-    width: 150px;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  margin: 0;
+  width: 150px;
 }
 
 .li-bolder {
-    margin-bottom: 9px !important;
-    font-weight: bold !important;
-    font-size: 15px !important;
+  margin-bottom: 9px !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
 }
 
 .clear-floats {
-    clear: both;
+  clear: both;
 }
 
 .static-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 1.4rem;
-    z-index: 1;
-    background: white;
-    border-top: 1px solid black;
-    padding: 0.8rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1.4rem;
+  z-index: 1;
+  background: white;
+  border-top: 1px solid black;
+  padding: 0.8rem;
 }
 
 .static-footer h1 {
-    font-size: 14px;
-    float: left;
-    margin-left: 40%;
-    font-weight: normal;
+  font-size: 14px;
+  float: left;
+  margin-left: 40%;
+  font-weight: normal;
 }
 
 .static-footer span {
-    float: left;
-    margin-left: 22%;
-    font-size: 13px;
-    font-weight: bold;
+  float: left;
+  margin-left: 22%;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
-    .title {
-        position: relative;
-        left: 4%;
-        width: inherit;
-        margin-bottom: 1rem;
-        margin-top: 3rem;
-    }
-    .title h1 {
-        font-size: 20px;
-    }
-    .jumbo {
-        width: 100%;
-    }
-    .footer-float {
-        display: none;
-    }
+  .title {
+    position: relative;
+    left: 4%;
+    width: inherit;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+  }
+
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .jumbo {
+    width: 100%;
+  }
+
+  .footer-float {
+    display: none;
+  }
 }
