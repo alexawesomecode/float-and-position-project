@@ -98,8 +98,13 @@ a {
   margin-left: 8px;
 }
 
-/* title & front image section */
+#space-cosmos {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 1rem;
+}
 
+/* title & front image section */
 .title {
   position: relative;
   left: 28%;
@@ -153,7 +158,6 @@ a {
 }
 
 /* content */
-
 .main-content {
   position: relative;
   left: 25%;
@@ -193,7 +197,6 @@ a {
 }
 
 /* infograph section */
-
 .infograph {
   position: relative;
   margin: 0 auto;
@@ -236,7 +239,6 @@ a {
 }
 
 /* media boxes */
-
 .video-box {
   position: relative;
   width: 53%;
@@ -283,7 +285,6 @@ a {
 }
 
 /* aside section */
-
 .side-sect {
   position: absolute;
   left: 70rem;
@@ -291,7 +292,6 @@ a {
 }
 
 /*  signup */
-
 .signup-form-box h2 {
   font-size: 17px;
   text-align: left;
@@ -382,7 +382,6 @@ input[type="email"] {
 }
 
 /* footer */
-
 .footer-logo img {
   width: 188px;
   margin-left: -4%;
@@ -468,10 +467,10 @@ footer {
   width: 150px;
 }
 
-#li-bolder {
-  margin-bottom: 9px;
-  font-weight: bold;
-  font-size: 15px;
+.li-bolder {
+  margin-bottom: 9px !important;
+  font-weight: bold !important;
+  font-size: 15px !important;
 }
 
 .clear-floats {
