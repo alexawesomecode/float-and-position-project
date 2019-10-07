@@ -98,6 +98,13 @@ a {
   margin-left: 8px;
 }
 
+#space-cosmos {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+
 /* title & front image section */
 
 .title {
@@ -152,6 +159,7 @@ a {
   font-size: 14px !important;
 }
 
+
 /* content */
 
 .main-content {
@@ -191,6 +199,7 @@ a {
   background-color: lightgray;
   border: 2px solid rgb(255, 255, 255);
 }
+
 
 /* infograph section */
 
@@ -234,6 +243,7 @@ a {
 .bold-infopgraph {
   font-weight: bold;
 }
+
 
 /* media boxes */
 
@@ -282,14 +292,18 @@ a {
   margin-bottom: 19px;
 }
 
+
 /* aside section */
+
 .side-sect {
   position: absolute;
   left: 70rem;
   width: 13%;
 }
 
+
 /*  signup */
+
 .signup-form-box h2 {
   font-size: 17px;
   text-align: left;
@@ -379,7 +393,9 @@ input[type="email"] {
   font-weight: 555;
 }
 
+
 /* footer */
+
 .footer-logo img {
   width: 188px;
   margin-left: -4%;
