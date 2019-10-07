@@ -104,9 +104,7 @@ a {
   padding-left: 1rem;
 }
 
-
 /* title & front image section */
-
 .title {
   position: relative;
   left: 28%;
@@ -159,9 +157,7 @@ a {
   font-size: 14px !important;
 }
 
-
 /* content */
-
 .main-content {
   position: relative;
   left: 25%;
@@ -200,9 +196,7 @@ a {
   border: 2px solid rgb(255, 255, 255);
 }
 
-
 /* infograph section */
-
 .infograph {
   position: relative;
   margin: 0 auto;
@@ -244,9 +238,7 @@ a {
   font-weight: bold;
 }
 
-
 /* media boxes */
-
 .video-box {
   position: relative;
   width: 53%;
@@ -292,18 +284,14 @@ a {
   margin-bottom: 19px;
 }
 
-
 /* aside section */
-
 .side-sect {
   position: absolute;
   left: 70rem;
   width: 13%;
 }
 
-
 /*  signup */
-
 .signup-form-box h2 {
   font-size: 17px;
   text-align: left;
@@ -393,9 +381,7 @@ input[type="email"] {
   font-weight: 555;
 }
 
-
 /* footer */
-
 .footer-logo img {
   width: 188px;
   margin-left: -4%;
